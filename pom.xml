@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zhugeio.etl</groupId>
+    <artifactId>zg-etl</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>etl-flink-common</module>
+        <module>etl-flink-pipeline</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <flink.version>1.17.2</flink.version>
+        <java.version>1.8</java.version>
+        <scala.binary.version>2.12</scala.binary.version>
+        <slf4j.version>1.7.30</slf4j.version>
+        <fastjson.version>2.0.7</fastjson.version>
+        <hadoop.version>2.8.5</hadoop.version>
+        <jackson.version>2.15.2</jackson.version>
+        <connector.version>25.1.0</connector.version>
+        <lettuce.version>6.2.6.RELEASE</lettuce.version>
+        <hutool.version>5.8.16</hutool.version>
+        <commons.lang3.version>3.12.0</commons.lang3.version>
+        <hikari.version>4.0.3</hikari.version>
+        <mysql.version>8.0.16</mysql.version>
+        <json.schema.version>1.4.1</json.schema.version>
+        <zhugeio.tool.version>1.0.0-RELEASE</zhugeio.tool.version>
+        <lombok.version>1.18.38</lombok.version>
+        <log4j.version>1.2.17</log4j.version>
+        <caffeine.version>2.9.3</caffeine.version>
+        <commons-codec.version>1.10</commons-codec.version>
+    </properties>
+
+</project>
+

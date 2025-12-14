@@ -1,0 +1,49 @@
+{
+  "name" : "维度映射文档",
+  "description" : "不区分大小写",
+  "dims": {
+    "sdk": [
+      {"id":0,"name":"Unknown","keys":["none"]},
+      {"id":1,"name":"Android","keys":["and"]},
+      {"id":2,"name":"IOS","keys":["ios"]},
+      {"id":3,"name":"Javascript","keys":["js"]},
+      {"id":4,"name":"微信小程序","keys":["wxa"]},
+      {"id":5,"name":"服务端","keys":["server"]},
+      {"id":6,"name":"鸿蒙","keys":["harmonyos"]}
+    ],
+    "event_type": [
+      {"id":1,"name":"track","keys":["cus"]},
+      {"id":2,"name":"identify","keys":["idf"]},
+      {"id":3,"name":"session start","keys":["ss"]},
+      {"id":4,"name":"session end","keys":["se"]},
+      {"id":5,"name":"page view","keys":["pg"]},
+      {"id":6,"name":"upload client info","keys":["info"]},
+      {"id":7,"name":"upload user accounts","keys":["acs"]},
+      {"id":8,"name":"upload user apps","keys":["pkgs"]},
+      {"id":9,"name":"upload user running apps","keys":["rt"]}
+    ],
+    "jail": [
+      {"id":0,"name":"未知","keys":[""]},
+      {"id":1,"name":"已越狱","keys":["1"]},
+      {"id":2,"name":"未","keys":["0"]}
+    ],
+    "pirate": [
+      {"id":0,"name":"未知","keys":[""]},
+      {"id":1,"name":"已破解","keys":["1"]},
+      {"id":2,"name":"未破解","keys":["0"]}
+    ],
+    "gender": [
+      {"id":0,"name":"未知","keys":["n","none","未知"]},
+      {"id":1,"name":"男","keys":["m","male","男"]},
+      {"id":2,"name":"女","keys":["f","female","女"]}
+    ],
+    "network": [
+      {"id":0,"name":"未知","keys":["none"]},
+      {"id":1,"name":"2G","keys":["2g"]},
+      {"id":2,"name":"3G","keys":["3g"]},
+      {"id":3,"name":"4G","keys":["4g"]},
+      {"id":4,"name":"WIFI","keys":["wifi"]}
+    ]
+  }
+
+}

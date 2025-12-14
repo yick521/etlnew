@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dt": {
+            "type": "string"
+          },
+          "pr": {
+            "type": "object",
+            "properties":{
+              "$sid":{
+                "type":"number"
+              },
+              "$ct":{
+                "type":"number"
+              }
+            }
+          }
+        },
+        "required": [
+          "dt",
+          "pr"
+        ]
+      }
+    },
+    "ak": {
+      "type": "string"
+    },
+    "debug": {
+      "type": "integer"
+    },
+    "sln": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "pl": {
+      "type": "string",
+      "enum": ["none", "and", "ios", "js" ,"wxa","server","harmonyos"]
+    },
+    "sdk": {
+      "type": "string"
+    },
+    "sdkv": {
+      "type": "string"
+    },
+    "usr": {
+      "type": "object",
+      "properties": {
+        "did": {
+          "type": "string",
+          "minLength":1,
+          "maxLength":100
+        }
+      },
+      "required": [
+        "did"
+      ]
+    },
+    "ut": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "ua": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "tz",
+    "ak",
+    "debug",
+    "sln",
+    "owner",
+    "pl",
+    "sdk",
+    "sdkv",
+    "usr",
+    "ut",
+    "ip",
+    "ua"
+  ]
+}
